@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Soft Signals — Diploma Project</title>
+<meta name="description" content="Soft Signals — a real-time, multi-channel sensory-regulation system for Highly Sensitive People. Diploma project by Bianca Braga.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="book" id="book">
+
+  <div class="nav-bar">
+    <span class="brandmark">SOFT&nbsp;SIGNALS</span>
+    <div class="pill-groups">
+      <button class="pill" data-go="intro" data-members="intro,background,problem,statement">01 Intro</button>
+      <button class="pill" data-go="concept" data-members="concept,target-user,interaction,landscape">02 Research</button>
+      <button class="pill" data-go="products-intro" data-members="products-intro,sensus-aura,arcus,tactus">03 Products</button>
+      <button class="pill" data-go="exhibition" data-members="exhibition">04 Exhibition</button>
+      <button class="pill" data-go="archive" data-members="archive">05 Archive</button>
+      <button class="pill" data-go="credits" data-members="credits">06 Credits</button>
+    </div>
+    <div class="nav-tools">
+      <span class="counter" id="counter"></span>
+      <button class="arrow-btn" id="prevBtn" aria-label="Previous">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <button class="arrow-btn" id="nextBtn" aria-label="Next">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+      <button class="tool-btn" id="themeToggle" aria-label="Theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.6"/><path d="M12 2v2.4M12 19.6V22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M2 12h2.4M19.6 12H22M4.9 19.1l1.7-1.7M17.4 6.6l1.7-1.7"/></svg>
+      </button>
+      <button class="tool-btn" id="langToggle" aria-label="Language">
+        <span class="tool-txt" id="langLabel">EN</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="stage">
+
+    <!-- ===================== COVER ===================== -->
+    <div class="page active" data-page="cover">
+      <div class="cover-slide" id="coverSlide">
+        <img class="cv-bg" src="assets/img/cover-texture.jpg" alt="" aria-hidden="true">
+        <div class="cv-scrim"></div>
+        <div class="cv-body">
+          <h1 class="cv-word">SOFT SIGNALS</h1>
+          <div class="cv-orbit"><span>Sensus Aura</span><span>Tactus</span><span>Arcus</span></div>
+          <div class="cv-sep"></div>
+          <div class="cv-cta"><span>click to start</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== INTRO ===================== -->
+    <div class="page" data-page="intro">
+      <div class="page-inner narrow">
+        <span class="eyebrow" data-en="Project Overview">프로젝트 개요</span>
+        <h2 class="head-title" data-en="A sensory-regulation system, worn quietly into daily life.">일상 속에 조용히 스며드는 감각 조절 시스템</h2>
+        <p class="lede" data-en="Soft Signals is a real-time, multi-channel sensory-regulation system for people who feel the world more intensely — Highly Sensitive People, neurodivergent users, and city-dwellers carrying chronic social fatigue.">Soft Signals는 세상을 더 강하게, 더 섬세하게 느끼는 사람들을 위한 감각 조절 시스템이다. 예를 들어 Highly Sensitive People, 신경다양성 사용자, 또는 사회적 피로를 자주 경험하는 도시 생활자를 대상으로 한다.</p>
+        <p class="lede" data-en="Rather than responding after stress has already built up, it helps people regulate themselves through small, quiet interventions in breath, touch, sound filtering, and body awareness — noticing the earliest signals the body sends before it reaches overload, and gently guiding it back to calm.">이 프로젝트는 스트레스가 이미 커진 뒤에 대응하는 것이 아니라, 사용자가 작고 조용한 개입을 통해 스스로를 조절할 수 있도록 돕는 것을 목적으로 한다. 그 개입은 호흡, 촉각, 소리 필터링, 신체 인식을 통해 이루어지며 Soft Signals는 몸이 과부하에 도달하기 전에 먼저 보내는 작은 신호들에 주목한다. 다시 차분한 상태로 돌아올 수 있도록 부드럽게 도와준다.</p>
+        <p class="lede" data-en="In short — Soft Signals is a real-time, multi-channel sensory-regulation system that works invisibly inside social situations, without ever drawing attention." style="color:var(--ink);font-weight:600;">즉, Soft Signals는 사회적 상황 속에서도 눈에 띄지 않게 작동하는, 실시간 다채널 감각 조절 시스템이다.</p>
+      </div>
+    </div>
+
+    <!-- ===================== BACKGROUND ===================== -->
+    <div class="page" data-page="background">
+      <div class="page-inner">
+        <div class="two-col">
+          <div>
+            <span class="kicker" data-en="Background">배경</span>
+            <h2 class="head-title" data-en="They feel it — but don't know how to regulate it">감각을 느끼지만,<br>그것을 조절할 방법을 모른다</h2>
+            <p class="stat-block" data-en="Highly Sensitive Persons (HSPs) make up an estimated 15–20% of the population — roughly 1.2 to 1.6 billion people worldwide. This is not a disorder or a diagnosis; it's a biological trait. That means the right lens isn't medical devices, but wellbeing and lifestyle tech.">HSP(Highly Sensitive Person)는 전 인구의 약 15~20%를 차지한다. 전 세계 80억 명 기준으로 약 12~16억 명에 해당하는 규모다. 이들은 disorder나 진단이 아니라 생물학적 특성(trait)을 가진 사람들이기 때문에, 기존 의료 기기가 아닌 웰빙·라이프스타일 테크 카테고리에서 접근해야 한다.</p>
+          </div>
+          <div class="photo-duo">
+            <figure><img src="assets/img/eye-macro.jpg" alt="Macro photograph of an eye"></figure>
+            <figure><img src="assets/img/ear-macro.jpg" alt="Macro photograph of an ear"></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== PROBLEM ===================== -->
+    <div class="page" data-page="problem">
+      <div class="page-inner">
+        <span class="kicker" data-en="Problem">문제</span>
+        <h2 class="head-title" data-en="However… an unfiltered sensory world">그러나… 여과되지 않은<br>감각의 세계</h2>
+        <p class="lede" data-en="Everyday social space is a constant flood of sensory input for an HSP. By the end of the day, an overload of others' expressions, voices, and moods accumulates into cognitive fatigue — often without a clear sense of why. The feeling is there, but there's no way to know what to regulate, or how. Current technology assumes everyone is the same, and the social experience of sensorially sensitive people goes largely unaddressed.">우리의 일상적인 사회적 공간은 HSP에게 끊임없는 감각 자극의 홍수다. 하루가 끝날 때, 타인의 표정·목소리·분위기가 과도하게 쌓여 인지 피로로 이어지지만, 그 원인을 명확히 인식하기 어렵다. "느끼는 것"은 있지만, 무엇을 어떻게 조절해야 할지 알 수 없다. 현재의 기술은 모든 사람을 동일하게 가정하며, 감각적으로 예민한 사람의 사회적 경험은 충분히 다루어지지 않는다.</p>
+        <figure class="full-photo dark-cap"><img src="assets/img/problem-photo.jpg" alt="A person overwhelmed at a desk surrounded by screens"></figure>
+      </div>
+    </div>
+
+    <!-- ===================== STATEMENT ===================== -->
+    <div class="page" data-page="statement">
+      <div class="page-inner narrow" style="display:flex;flex-direction:column;justify-content:center;min-height:100%;padding-top:0;">
+        <span class="kicker" style="text-align:center;">Project Statement</span>
+        <p class="statement-q">How might we give an HSP real-time sensory-regulation tools, usable in various ways, without being socially noticeable?</p>
+        <p class="statement-q" style="margin-top:22px;color:var(--muted);font-weight:400;font-size:.72em;">어떻게 하면 HSP가 사회적으로 티 나지 않으면서, 다양한 방식으로 실시간 감각 조절 도구를 사용할 수 있을까?</p>
+      </div>
+    </div>
+
+    <!-- ===================== CONCEPT ===================== -->
+    <div class="page" data-page="concept">
+      <div class="page-inner">
+        <span class="kicker" data-en="Concept & Composition">컨셉 & 구성</span>
+        <h2 class="head-title" data-en="Three quiet objects, one regulation loop">세 개의 조용한 오브젝트, 하나의 조절 루프</h2>
+        <div class="concept-tags">
+          <span class="tag">Invisible</span><span class="tag">Real-time</span><span class="tag">Multi-channel</span>
+          <span class="tag">Haptic</span><span class="tag">Parasympathetic</span><span class="tag">Body-worn</span>
+          <span class="tag">Social</span><span class="tag">Biofeedback</span><span class="tag">Non-clinical</span><span class="tag">Modular</span>
+        </div>
+        <div class="system-grid">
+          <div class="sys-card">
+            <p class="role" data-en="PRIMARY SENSOR">주감각기 · PRIMARY</p>
+            <h3>Sensus Aura</h3>
+            <p data-en="Handheld breathing object. Airflow sensor, grip EDA, thermal haptics — measures arousal and answers with warmth or cold.">흡입기 형태의 호흡 오브젝트. 유량 센서·그립 EDA·햅틱으로 각성 상태를 측정하고 온도로 응답한다.</p>
+          </div>
+          <div class="sys-card">
+            <p class="role" data-en="SECONDARY SUPPORT">보조기기 · SECONDARY</p>
+            <h3>Arcus</h3>
+            <p data-en="An ear clip. VNS vibration and a 16dB acoustic filter, delivered by bone conduction — worn like an accessory.">이어 클립. 골전도를 통한 VNS 진동과 16dB 음향 필터 — 액세서리처럼 착용한다.</p>
+          </div>
+          <div class="sys-card">
+            <p class="role" data-en="GROUNDING TOOL">그라운딩 도구</p>
+            <h3>Tactus</h3>
+            <p data-en="A palm-sized pressure object built on Deep Pressure Stimulation — no electronics, touch alone.">손바닥 크기의 심부 압박 자극 오브젝트 — 전자장치 없이 촉각만으로 작동한다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== TARGET USER ===================== -->
+    <div class="page" data-page="target-user">
+      <div class="page-inner">
+        <span class="kicker" data-en="Target User · Interview">타겟 유저 · 인터뷰</span>
+        <h2 class="head-title" data-en="What sensitivity looks like, from the inside">예민함은 안에서 어떻게 보이는가</h2>
+        <div class="trait-grid">
+          <div class="trait"><p class="num">01</p><p data-en="Processes information and emotion more deeply than most">정보·감정을 더 깊이 처리한다</p></div>
+          <div class="trait"><p class="num">02</p><p data-en="Prone to sensory overload and cognitive fatigue">감각 과부하와 인지 피로에 취약하다</p></div>
+          <div class="trait"><p class="num">03</p><p data-en="Reflects deeply on an experience before acting on it">행동하기 전에 경험을 깊이 반추한다</p></div>
+          <div class="trait"><p class="num">04</p><p data-en="Overwhelmed by crowds, noise, bright light, or sudden change">사람이 많거나 소음·밝은 조명·급격한 변화에 압도된다</p></div>
+          <div class="trait"><p class="num">05</p><p data-en="Strong emotional response and high empathy">강한 감정 반응과 높은 공감 능력을 지닌다</p></div>
+          <div class="trait"><p class="num">06</p><p data-en="Notices subtle stimuli others miss — scent, texture, tone of voice">향, 질감, 목소리 톤 등 남들이 놓치는 미세한 자극을 감지한다</p></div>
+        </div>
+        <p class="section-label" style="margin-top:34px;" data-en="How interviewees who identify as HSP already cope (n=4)">HSP라고 생각하는 인터뷰이들이 이미 사용하는 대처 방식 (4명)</p>
+        <div class="coping-row">
+          <span data-en="Sound filtering">소리 필터링</span><span data-en="Breathing training">호흡 훈련</span>
+          <span data-en="Biofeedback">biofeedback</span><span data-en="Texture fidgeting">텍스처 피젯팅</span>
+          <span data-en="Brushing">brushing</span><span data-en="Pressure interaction">pressure interaction</span>
+          <span data-en="Haptic interaction">haptic interaction</span>
+        </div>
+        <blockquote class="field-quote" data-en="&ldquo;Especially in environments I can't control, it gets worse. This trait can sometimes lead to negative experiences — fatigue, and trouble staying focused in daily life.&rdquo;">
+          "특히 통제할 수 없는 환경에서 더욱 그러하다. 이러한 특성은 때때로 피로감과 일상 생활에서 집중 유지의 어려움과 같은 부정적인 경험으로 이어질 수 있다."
+          <cite data-en="— Interviewee, woman, 30s">— 인터뷰이 (여, 30대)</cite>
+        </blockquote>
+      </div>
+    </div>
+
+    <!-- ===================== INTERACTION LOOP ===================== -->
+    <div class="page" data-page="interaction">
+      <div class="page-inner wide">
+        <span class="kicker" data-en="Interaction">인터랙션</span>
+        <h2 class="head-title" data-en="Feeling → Measuring → Interpreting → Guiding → Sensing again">감각적 직관 → 데이터 측정 → 상태 해석 → 감각적 피드백 → 사용자 재반응</h2>
+        <div class="loop-row">
+          <div class="loop-step"><p class="n">01</p><h4 data-en="Feeling">감각적 직관</h4><p data-en="Grip feel, temperature, texture, pressure — a subjective first read.">그립감, 온도 변화, 텍스처, 압력 — 주관적인 첫 감지.</p></div>
+          <div class="loop-step"><p class="n">02</p><h4 data-en="Measuring">데이터 측정</h4><p data-en="EDA (skin conductance), PPG (HRV), airflow speed — the objective threshold.">EDA(피부전도), PPG(심박변이), 호흡 속도 — 객관적 임계값.</p></div>
+          <div class="loop-step"><p class="n">03</p><h4 data-en="Interpreting">상태 해석</h4><p data-en="Session logs, pre/post HRV, pattern recognition — the system learns each user's triggers.">세션 로그, 전후 HRV, 패턴 인식 — 사용자별 트리거를 학습한다.</p></div>
+          <div class="loop-step"><p class="n">04</p><h4 data-en="Guiding">감각적 피드백</h4><p data-en="A warm/cool haptic pulse, breath-pacing, sound filtering, deep pressure.">온화한 햅틱 펄스, 호흡 페이싱, 사운드 필터링, 심부 압박.</p></div>
+          <div class="loop-step"><p class="n">05</p><h4 data-en="Sensing again">사용자 재반응</h4><p data-en="Touching the object, following the breath — the loop restarts, invisibly.">오브제를 다시 만지고, 호흡을 따라가며 — 루프는 티 나지 않게 다시 시작된다.</p></div>
+        </div>
+
+        <div class="product-loop-table">
+          <div class="plt-row" style="border-bottom:1px solid var(--line);">
+            <div class="plt-head">PRODUCT</div><div class="plt-head" data-en="MEASURES">측정</div><div class="plt-head" data-en="FEEDBACK">피드백</div>
+          </div>
+          <div class="plt-row"><div class="name">Sensus Aura</div><div class="sub" data-en="Grip EDA, airflow speed">그립 EDA, 호흡 유량</div><div class="sub" data-en="Peltier thermal pulse (warm ↔ cool), breath-depth cue">Peltier 온열 펄스(온↔냉), 호흡 깊이 유도</div></div>
+          <div class="plt-row"><div class="name">Arcus</div><div class="sub" data-en="PPG (heart-rate variability)">PPG(심박변이)</div><div class="sub" data-en="25Hz VNS vibration via bone conduction, −16dB acoustic filter">25Hz 골전도 VNS 진동, −16dB 음향 필터</div></div>
+          <div class="plt-row"><div class="name">Tactus</div><div class="sub" data-en="Subjective grip / texture / pressure">주관적 그립·텍스처·압력</div><div class="sub" data-en="Deep Pressure Stimulation via silicone nub array">실리콘 돌기 배열을 통한 심부 압박 자극</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== LANDSCAPE ===================== -->
+    <div class="page" data-page="landscape">
+      <div class="page-inner wide">
+        <span class="kicker" data-en="Competitive Landscape">경쟁 구도</span>
+        <h2 class="head-title" data-en="Nothing invisible is also actively regulating">보이지 않으면서 능동적으로 조절하는 제품은 없다</h2>
+        <p class="lede" data-en="Wearables today mostly monitor, quietly, from the wrist. Regulation devices exist, but they read as medical or as toys. Soft Signals sits in the quadrant nobody else occupies: invisible, and actively regulating.">현재의 웨어러블은 대부분 손목에서 조용히 모니터링만 한다. 조절 기기는 존재하지만 의료용이거나 장난감처럼 보인다. Soft Signals는 아무도 점유하지 않은 사분면에 위치한다 — 보이지 않으면서, 능동적으로 조절하는.</p>
+        <div class="quad-wrap">
+          <span class="quad-axis axis-top" data-en="ACTIVE REGULATION">능동적 조절</span>
+          <span class="quad-axis axis-bottom" data-en="PASSIVE MONITORING">간접적 모니터링</span>
+          <span class="quad-axis axis-left" data-en="VISIBLE">가시적</span>
+          <span class="quad-axis axis-right" data-en="INVISIBLE">비가시적</span>
+          <div class="qcell"></div><div class="qcell"></div><div class="qcell"></div><div class="qcell"></div>
+          <span class="qdot" style="left:14%;top:70%;"><i></i>Oura Ring</span>
+          <span class="qdot" style="left:26%;top:82%;"><i></i>Whoop</span>
+          <span class="qdot" style="left:20%;top:58%;"><i></i>Empatica E4</span>
+          <span class="qdot" style="left:34%;top:64%;"><i></i>Muse Headband</span>
+          <span class="qdot" style="left:14%;top:22%;"><i></i>Apollo Neuro</span>
+          <span class="qdot" style="left:30%;top:14%;"><i></i>Moonbird</span>
+          <span class="qdot" style="left:24%;top:32%;"><i></i>Calmigo</span>
+          <span class="qdot" style="left:78%;top:70%;"><i></i>Loop Earplugs</span>
+          <span class="qdot us" style="left:76%;top:24%;"><i></i>Soft Signals</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== PRODUCTS INTRO ===================== -->
+    <div class="page wide-page" data-page="products-intro">
+      <div class="page-inner wide">
+        <span class="kicker" data-en="The Products">프로덕트</span>
+        <h2 class="head-title" data-en="Three ways in, one system">세 개의 입구, 하나의 시스템</h2>
+        <div class="system-grid" style="margin-top:44px;">
+          <div class="sys-card" data-go="sensus-aura" style="cursor:pointer;">
+            <figure style="border-radius:12px;overflow:hidden;margin:-4px -4px 16px;"><img src="assets/img/sensus-render.jpg" alt="Sensus Aura"></figure>
+            <h3>Sensus Aura</h3>
+            <p data-en="Breathing object · handheld">호흡 오브젝트 · 손에 쥐는 형태</p>
+          </div>
+          <div class="sys-card" data-go="tactus" style="cursor:pointer;">
+            <figure style="border-radius:12px;overflow:hidden;margin:-4px -4px 16px;"><img src="assets/img/tactus-hand.jpg" alt="Tactus"></figure>
+            <h3>Tactus</h3>
+            <p data-en="Grounding object · palm-worn">그라운딩 오브젝트 · 손바닥 착용</p>
+          </div>
+          <div class="sys-card" data-go="arcus" style="cursor:pointer;">
+            <figure style="border-radius:12px;overflow:hidden;margin:-4px -4px 16px;"><img src="assets/img/arcus-worn.jpg" alt="Arcus"></figure>
+            <h3>Arcus</h3>
+            <p data-en="Ear clip · body-worn">이어 클립 · 신체 착용</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== SENSUS AURA ===================== -->
+    <div class="page" data-page="sensus-aura">
+      <div class="page-inner wide">
+        <div class="product-hero">
+          <div>
+            <span class="kicker">02.1 / Product Definition</span>
+            <h2 class="product-name">Sensus Aura</h2>
+            <p class="product-role" data-en="Primary sensor · breathing object">주감각기 · 호흡 오브젝트</p>
+            <p class="product-tagline" data-en="A handheld sensory-regulation object inspired by asthma inhalers and spirometry devices. Material resistance in the mouthpiece naturally slows and deepens the exhale, activating the parasympathetic nervous system.">천식 흡입기와 폐활량 측정기에서 영감을 받은 손 안착형 감각 조절 오브젝트다. 마우스피스의 소재 저항이 자연스럽게 호흡을 늦추고 깊게 만들어, 부교감신경계를 활성화한다.</p>
+          </div>
+          <figure><img src="assets/img/sensus-render.jpg" alt="Sensus Aura product render"></figure>
+        </div>
+
+        <div class="spec-table">
+          <div class="spec-row"><div class="k">KEYWORD</div><div class="v">Airflow sensor (spirometer-style)</div></div>
+          <div class="spec-row"><div class="k">DIMENSION</div><div class="v">H17 × ⌀12 cm</div></div>
+          <div class="spec-row"><div class="k">CMF</div><div class="v" data-en="Soft, matte plastic body · translucent frosted-white ball indicator · matte finish">소프트 매트 플라스틱 바디 · 반투명 프로스티드 화이트 볼 인디케이터 · 매트 마감</div></div>
+          <div class="spec-row"><div class="k">DESIGN LANGUAGE</div><div class="v">Minimal</div></div>
+        </div>
+
+        <details class="toggle">
+          <summary data-en="Full description">전체 설명 보기</summary>
+          <div class="toggle-body" data-en="Held in the hands, the user breathes through a mouthpiece channel; material resistance naturally slows and deepens exhalation, activating the parasympathetic nervous system. A floating ball indicator makes correct breath depth immediately visible. The grip surface detects electrodermal activity, making the object aware of the user's arousal state — cooling when anxious and over-aroused, warming when dissociated and under-aroused. The form communicates its physiological purpose without needing an explanation, so it can be used in public without stigma.">손에 쥔 상태에서 사용자는 마우스피스 통로를 통해 숨을 내쉰다. 이때 소재의 저항이 자연스럽게 호흡을 늦추고 더 깊은 날숨을 유도해, 부교감신경계를 활성화한다. 떠 있는 볼(ball) 표시기는 적절한 호흡 깊이를 즉각적으로 시각화해 주며 그립 표면은 피부전도반응(EDA)으로 사용자의 각성 상태를 감지하고, 내장된 Peltier TEC 모듈이 온도로 반응한다. 불안하고 과각성된 상태엔 차갑게, 해리되거나 무감각한 저각성 상태엔 따뜻하게 신경계를 양방향으로 조절한다. 외형은 설명 없이도 생리적 도구임을 전달해, 공공장소에서도 낙인 없이 사용할 수 있다.</div>
+        </details>
+
+        <details class="toggle">
+          <summary data-en="Hardware — exploded view">하드웨어 — 분해도</summary>
+          <div class="toggle-body">
+            <ul class="exploded-list">
+              <li><b data-en="Ball indicator">볼 인디케이터</b><span data-en="floating breath-depth cue">호흡 깊이 표시</span></li>
+              <li><b data-en="Upper funnel">어퍼 퍼널</b><span data-en="mouthpiece channel">마우스피스 통로</span></li>
+              <li><b data-en="Upper chamber">어퍼 챔버</b><span></span></li>
+              <li><b data-en="Separation ring">세퍼레이션 링</b><span></span></li>
+              <li><b data-en="Air-pressure + temp sensor">기압 · 온도 센서</b><span></span></li>
+              <li><b data-en="Main PCB">메인 PCB</b><span></span></li>
+              <li><b data-en="Temperature generator">온도 발생기</b><span>Peltier TEC</span></li>
+              <li><b data-en="Wireless charger module">무선 충전 모듈</b><span></span></li>
+              <li><b data-en="Separation ring + EDA sensor">세퍼레이션 링 + EDA 센서</b><span></span></li>
+              <li><b data-en="Housing">하우징</b><span></span></li>
+            </ul>
+            <figure class="full-photo" style="margin-top:22px;"><img src="assets/img/sensus-hardware.png" alt="Sensus Aura exploded hardware diagram"></figure>
+          </div>
+        </details>
+
+        <figure class="full-photo"><img src="assets/img/sensus-usershot.jpg" alt="Sensus Aura held to the mouth"></figure>
+
+        <p class="section-label" style="margin-top:40px;" data-en="Prototyping process">프로토타이핑 과정</p>
+        <div class="process-strip" style="grid-template-columns:repeat(4,1fr);">
+          <figure><img src="assets/img/sensus-process-1.jpg" alt="Form study, 3D modeling, first prototype"></figure>
+          <figure><img src="assets/img/sensus-process-2.jpg" alt="First 3D printed parts"></figure>
+          <figure><img src="assets/img/sensus-process-3.jpg" alt="Second prototype parts, exploded"></figure>
+          <figure><img src="assets/img/sensus-process-4.jpg" alt="Prototype parts laid out"></figure>
+          <figure><img src="assets/img/sensus-process-5.jpg" alt="Prototype parts in hand"></figure>
+          <figure><img src="assets/img/sensus-process-6.jpg" alt="Final render, cutaway"></figure>
+          <figure><img src="assets/img/sensus-process-7.jpg" alt="Assembled render, close-up"></figure>
+          <figure><img src="assets/img/sensus-process-8.jpg" alt="Mirrored front and back render"></figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== ARCUS ===================== -->
+    <div class="page" data-page="arcus">
+      <div class="page-inner wide">
+        <div class="product-hero">
+          <div>
+            <span class="kicker">02.2 / Product Definition</span>
+            <h2 class="product-name">Arcus</h2>
+            <p class="product-role" data-en="Secondary support · ear clip">보조기기 · 이어 클립</p>
+            <p class="product-tagline" data-en="A body-worn regulation device clipped to the tragus, reading as an unconventional earring rather than a medical device — worn so regulation stays invisible in social contexts.">이주(tragus)에 클립으로 고정되는 신체 착용형 조절 디바이스. 의료기기가 아닌 비정형 귀걸이로 읽혀, 사회적 맥락 속에서 조절이 드러나지 않는다.</p>
+          </div>
+          <figure><img src="assets/img/arcus-worn.jpg" alt="Arcus worn on the ear"></figure>
+        </div>
+
+        <div class="spec-table">
+          <div class="spec-row"><div class="k">KEYWORD</div><div class="v">Invisible · Parasympathetic · VNS · Acoustic · Body-worn · Non-clinical</div></div>
+          <div class="spec-row"><div class="k">DIMENSION</div><div class="v">⌀15 × H2 cm</div></div>
+          <div class="spec-row"><div class="k">CMF</div><div class="v" data-en="Brushed silver / matte anodized dark gray · anodized aluminum shell · silicone contact surface · titanium spring-steel clip">브러시드 실버 / 매트 아노다이즈드 다크 그레이 · 아노다이즈드 알루미늄 쉘 · 실리콘 접촉면 · 티타늄 스프링 스틸 클립</div></div>
+          <div class="spec-row"><div class="k">DESIGN LANGUAGE</div><div class="v">Minimal</div></div>
+        </div>
+
+        <details class="toggle">
+          <summary data-en="Full description">전체 설명 보기</summary>
+          <div class="toggle-body" data-en="Inspired by high-end audio clips and medical auricular devices, Arcus delivers two simultaneous interventions: a 25Hz mechanical vibration through bone conduction that stimulates the auricular branch of the vagus nerve, and a passive acoustic filter that reduces ambient noise by 16dB while preserving speech clarity. No active operation is required — wearing it is the intervention.">하이엔드 오디오 클립과 의료용 이어 디바이스의 형태에서 영감을 받아 설계되었다. 두 가지 개입을 동시에 제공한다: 골전도 진동(25Hz)을 통해 미주신경의 귀 분지를 자극하고, 수동형 음향 필터로 주변 소음을 16dB 감쇄하면서도 대화 명료도는 유지한다. 별도의 조작이 필요 없으며, 착용 자체가 개입이다.</div>
+        </details>
+
+        <details class="toggle">
+          <summary data-en="Mechanism & manufacturing">메커니즘 & 제작 방식</summary>
+          <div class="toggle-body">
+            <p data-en="VNS frequency: 15 / 25Hz, delivered through the ear bone at the tragus. Acoustic filter: −16dB SNR.">VNS 주파수: 15 / 25Hz, 이주를 통한 골전도 전달. 음향 필터: −16dB SNR.</p>
+            <p data-en="Made using a jewelry casting method — 3D-printed in wax, cast in silver, then polished to a mirror finish.">주얼리 캐스팅 방식으로 제작 — 왁스로 3D 프린팅 후 실버로 주물, 광택기로 마감.</p>
+          </div>
+        </details>
+
+        <div class="process-strip" style="grid-template-columns:repeat(2,1fr);margin-top:30px;">
+          <figure><img src="assets/img/arcus-render.jpg" alt="Arcus 3D render on an illustrated ear"></figure>
+          <figure><img src="assets/img/arcus-cmf-b.jpg" alt="Arcus CMF study, polished silver"></figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== TACTUS ===================== -->
+    <div class="page" data-page="tactus">
+      <div class="page-inner wide">
+        <div class="product-hero">
+          <div>
+            <span class="kicker">02.3 / Product Definition</span>
+            <h2 class="product-name">Tactus</h2>
+            <p class="product-role" data-en="Grounding tool · non-electronic">그라운딩 도구 · 비전자식</p>
+            <p class="product-tagline" data-en="A handheld grounding object built entirely around Deep Pressure Stimulation — no electronics, no activation. It works through touch alone.">심부 압박 자극(Deep Pressure Stimulation) 원리만으로 설계된 손 안착형 그라운딩 오브젝트다. 전자 부품도, 별도의 활성화 동작도 없다 — 오직 촉각만으로 작동한다.</p>
+          </div>
+          <figure><img src="assets/img/tactus-hand.jpg" alt="Tactus assembled render"></figure>
+        </div>
+
+        <div class="spec-table">
+          <div class="spec-row"><div class="k">KEYWORD</div><div class="v">Touch · Pressure · Rhythm · Settling · Deep Pressure Stimulation · Grounding</div></div>
+          <div class="spec-row"><div class="k">DIMENSION</div><div class="v">L12 × W4 × H2.5–3 cm</div></div>
+          <div class="spec-row"><div class="k">CMF</div><div class="v" data-en="Warm cream-white body, mist-blue silicone nub surface · soft matte ABS/EVA body, medical-grade silicone nub array">웜 크림 화이트 바디, 미스트 블루 실리콘 돌기 표면 · 소프트 매트 ABS/EVA 바디, 의료용 실리콘 돌기 배열</div></div>
+          <div class="spec-row"><div class="k">DESIGN LANGUAGE</div><div class="v">Minimal · Organic · Sensory</div></div>
+        </div>
+
+        <details class="toggle">
+          <summary data-en="Full description">전체 설명 보기</summary>
+          <div class="toggle-body" data-en="The pill-shaped body rests flat in the palm or across the fingers; a raised silicone nub array on the upper surface delivers distributed tactile pressure. A central oval recess acts as a natural thumb guide, concentrating pressure at the most sensitive point of contact. Squeezing, pressing, or slowly dragging a thumb across the nub surface engages C-tactile afferent nerve fibers, triggering a parasympathetic response. The two-tone material language — warm body, cool blue nubs — makes the tactile zone immediately readable without instruction.">pill 형태의 바디는 손바닥 위 또는 손가락 위에 평평하게 올려지며, 상단 면의 실리콘 돌기 배열이 피부에 분산된 촉각 압력을 전달한다. 중앙의 타원형 오목부는 자연스러운 엄지 가이드 역할을 하며, 가장 민감한 접촉 지점에 압력을 집중시킨다. 돌기 면을 누르거나 엄지로 천천히 쓸어내리는 동작이 C-촉각 구심성 신경섬유를 자극하고, 부교감신경계 반응을 유도한다. 따뜻한 크림 바디와 차가운 블루 돌기의 이중 소재 언어는 별도의 설명 없이도 촉각 작용 영역을 즉각적으로 인식하게 한다.</div>
+        </details>
+
+        <details class="toggle">
+          <summary data-en="Head types considered">고려된 헤드 타입</summary>
+          <div class="toggle-body">
+            <div class="chip-list">
+              <span data-en="Pressure Roller — smooth silicone, DPS">프레셔 롤러 — 스무스 실리콘, DPS</span>
+              <span data-en="Textured Brush — soft bristles">텍스처드 브러시 — 소프트 브리슬</span>
+              <span data-en="Smooth Stone — calming fidget">스무스 스톤 — 캄잉 피젯</span>
+              <span data-en="Ridged Surface — discriminative touch">리지드 서페이스 — 판별 촉각</span>
+              <span data-en="Soft Cushion — memory foam">소프트 쿠션 — 메모리폼</span>
+              <span data-en="Massage Nob — targeted pressure">마사지 노브 — 국소 압박</span>
+              <span data-en="Cooling Gel — thermal reset">쿨링 젤 — 온도 리셋</span>
+            </div>
+          </div>
+        </details>
+
+        <div class="process-strip" style="grid-template-columns:repeat(3,1fr);margin-top:30px;">
+          <figure><img src="assets/img/tactus-trio.jpg" alt="Exploded view — swappable bristle and bubble-nub heads"></figure>
+          <figure style="grid-column:span 2;"><img src="assets/img/tactus-process-grid.jpg" alt="Tactus prototyping process — sketches to 3D print"></figure>
+          <figure><img src="assets/img/tactus-process-7.jpg" alt="Assembled render, dramatic angle"></figure>
+          <figure><img src="assets/img/tactus-process-8.jpg" alt="Exploded view, alternate angle"></figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== EXHIBITION ===================== -->
+    <div class="page" data-page="exhibition">
+      <div class="page-inner wide">
+        <span class="kicker" data-en="Exhibition Plan">전시 계획</span>
+        <h2 class="head-title" data-en="A quiet booth for three quiet objects">세 개의 조용한 오브젝트를 위한 조용한 부스</h2>
+
+        <div class="ex-meta">
+          <div class="item"><div class="k" data-en="PROJECT">프로젝트명</div><div class="v">Soft Signals</div></div>
+          <div class="item"><div class="k" data-en="PRODUCT HW SIZE">제품 HW 사이즈</div><div class="v" data-en="3 objects, each W400 × D200 × H200mm">3개 오브젝트, 각 W400×D200×H200mm</div></div>
+          <div class="item"><div class="k" data-en="EXHIBITION FOOTPRINT">전시 사이즈</div><div class="v" data-en="Minimum W2000 × D1500mm">최소 W2000×D1500mm</div></div>
+          <div class="item"><div class="k" data-en="REQUESTED EQUIPMENT">추가 설치 요청품</div><div class="v" data-en="iMac 27&Prime; (product videos), Bluetooth speaker ×2, electric extension">iMac 27" (제품 영상), 블루투스 스피커 2대, 전기 연장선</div></div>
+        </div>
+
+        <div class="floorplan">
+          <p class="section-label" data-en="Zone plan">동선 계획</p>
+          <div class="fp-row">
+            <div class="fp-zone">
+              <div><span class="z-label">A</span><p class="z-title" data-en="Prototyping / Ideation Archive">프로토타이핑 · 아이디에이션 아카이브</p><p class="z-sub" data-en="Prototypes and finished products, side by side">프로토타입과 완성품을 나란히</p></div>
+            </div>
+            <div class="fp-flow"><span>IN</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </div>
+            <div class="fp-zone">
+              <div><span class="z-label">B</span><p class="z-title" data-en="Experience Zone">경험존</p><p class="z-sub" data-en="Try each object on a plinth, product videos on the iMac">받침대 위 오브젝트 체험, iMac으로 제품 영상 재생</p></div>
+            </div>
+            <div class="fp-flow"><span>OUT</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== ARCHIVE ===================== -->
+    <div class="page archive-page" data-page="archive">
+      <div class="ar-wrap">
+        <div class="ar-head">
+          <div>
+            <span class="eyebrow" data-en="Process Archive">과정 아카이브</span>
+            <p class="ar-title">Sensus Aura</p>
+          </div>
+          <div class="ar-cur-wrap"><span class="ar-cur">1</span> / 19</div>
+        </div>
+        <div class="ar-stage" id="arStage">
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-process-1.jpg" src="assets/img/sensus-process-1.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-process-2.jpg" src="assets/img/sensus-process-2.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-process-3.jpg" src="assets/img/sensus-process-3.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-process-4.jpg" src="assets/img/sensus-process-4.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-process-5.jpg" src="assets/img/sensus-process-5.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-process-6.jpg" src="assets/img/sensus-process-6.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-hardware.png" src="assets/img/sensus-hardware.png" alt=""></figure>
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-usershot.jpg" src="assets/img/sensus-usershot.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-process-7.jpg" src="assets/img/sensus-process-7.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Sensus Aura"><img data-src="assets/img/sensus-process-8.jpg" src="assets/img/sensus-process-8.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Arcus"><img data-src="assets/img/arcus-render.jpg" src="assets/img/arcus-render.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Arcus"><img data-src="assets/img/arcus-cmf-a.jpg" src="assets/img/arcus-cmf-a.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Arcus"><img data-src="assets/img/arcus-cmf-b.jpg" src="assets/img/arcus-cmf-b.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Arcus"><img data-src="assets/img/arcus-worn.jpg" src="assets/img/arcus-worn.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Tactus"><img data-src="assets/img/tactus-trio.jpg" src="assets/img/tactus-trio.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Tactus"><img data-src="assets/img/tactus-hand.jpg" src="assets/img/tactus-hand.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Tactus"><img data-src="assets/img/tactus-process-grid.jpg" src="assets/img/tactus-process-grid.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Tactus"><img data-src="assets/img/tactus-process-7.jpg" src="assets/img/tactus-process-7.jpg" alt=""></figure>
+          <figure class="ar-item" data-group="Tactus"><img data-src="assets/img/tactus-process-8.jpg" src="assets/img/tactus-process-8.jpg" alt=""></figure>
+        </div>
+        <p class="ar-hint" data-en="Drag or scroll to browse — tap the center image to zoom">드래그하거나 스크롤해서 둘러보기 — 가운데 이미지를 탭하면 확대</p>
+        <div class="ar-chips">
+          <button class="ar-chip" data-at="0" data-no="01">Sensus Aura</button>
+          <button class="ar-chip" data-at="10" data-no="02">Arcus</button>
+          <button class="ar-chip" data-at="14" data-no="03">Tactus</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== CREDITS ===================== -->
+    <div class="page credits-page" data-page="credits">
+      <div class="credits-wrap">
+        <div class="credit-card" id="creditCard" tabindex="0" role="button" aria-label="Credit card">
+          <div class="cc-face cc-front">
+            <span class="cc-mark">SOFT SIGNALS</span>
+            <p class="cc-name">Bianca<br>Braga</p>
+            <p class="cc-role">Diploma Project Designer</p>
+            <span class="cc-tap" data-en="TAP TO FLIP">눌러서 뒤집기</span>
+          </div>
+          <div class="cc-face cc-back">
+            <span class="eyebrow" style="margin-bottom:2px;">Bianca Braga</span>
+            <p style="font-size:12.5px;color:var(--muted);" data-en="Diploma Project">졸업작품</p>
+            <ul class="cc-role-list">
+              <li data-en="Product & industrial design">제품·산업 디자인</li>
+              <li data-en="UX research &amp; user interviews">UX 리서치 · 유저 인터뷰</li>
+              <li data-en="Prototyping &amp; CMF">프로토타이핑 · CMF</li>
+              <li data-en="Exhibition design">전시 디자인</li>
+            </ul>
+            <div class="cc-contact">
+              <a href="mailto:beyondouibeyond@gmail.com">beyondouibeyond@gmail.com</a>
+              <p class="cc-thanks" data-en="Thank you for reading.">읽어주셔서 감사합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="foot-nav">
+    <button class="arrow-btn" id="prevBtnF" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <button class="arrow-btn" id="nextBtnF" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+
+</div>
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="lightbox" id="lightbox">
+  <div class="lb-stage" id="lbStage">
+    <img id="lbImg" src="" alt="">
+  </div>
+  <div class="lb-bar">
+    <button class="lb-btn" id="lbMinus" aria-label="Zoom out"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14"/></svg></button>
+    <button class="lb-btn" id="lbPlus" aria-label="Zoom in"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 5v14M5 12h14"/></svg></button>
+    <button class="lb-btn" id="lbClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <span class="lb-zoom" id="lbZoom">100%</span>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

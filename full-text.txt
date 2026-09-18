@@ -1,0 +1,811 @@
+                       SOFT SIGNALS
+                        DIPLOMA PROJECT
+
+
+
+
+              Tactus
+
+
+
+
+                                          Arcus
+Sensus Aura
+
+
+
+
+                                                  BIANCA BRAGA 2387001
+SOFT SIGNALS   Soft Signals는 세상을 더 강하게, 더 섬세하게 느끼는 사람들을 위한 감각 조절 시스템이다.
+
+               예를 들어 Highly Sensitive People, 신경다양성 사용자, 또는 사회적 피로를 자주 경험하는 도시 생활자를 대상으로 한다.
+
+               이 프로젝트는 스트레스가 이미 커진 뒤에 대응하는 것이 아니라, 사용자가 작고 조용한 개입을 통해 스스로를 조절할 수 있도록 돕는 목적으로 한다.
+
+               그 개입은 호흡, 촉각, 소리 필터링, 신체 인식을 통해 이루어지며 Soft Signals는 몸이 과부하에 도달하기 전에 먼저 보내는 작은 신호들에 주목한다.
+
+               예를 들어 빨라지는 호흡, 손의 긴장, 소리에 대한 예민함, 감정적 피로감 같은 것들은 디자인한 제품들을 통해 사용자가 이러한 신호를 더 일찍 알아차리고, 
+
+               다시 차분한 상태로 돌아올 수 있도록 부드럽게 도와준다.
+
+               즉, Soft Signals는 사회적 상황 속에서도 눈에 띄지 않게 작동하는, 실시간 다채널 감각 조절 시스템이다.
+Background
+
+
+
+
+감각을 느끼지만, 
+
+그것을 조절할 방법을 모른다
+HSP(Highly Sensitive Person)는 전 인구의 약 15~20%를 차지한다.
+
+전 세계 80억 명 기준으로 약 12~16억 명에 해당하는 규모다. 이들은 disorder나 진단이
+아니라 생물학적 특성(trait)을 가진 사람들 The Highly Sensitive Person이기 때문에,
+기존 의료 기기가 아닌 웰빙·라이프스타일 테크 카테고리에서 접근해야 한다.
+Problem
+However…
+
+An Unfiltered Sensory World
+우리의 일상적인 사회적 공간은 HSP에게 끊임없는 감각 자극의 홍수다. 하루가 끝날 때, 타인의 
+
+표정·목소리·분위기가 과도하게 쌓여 인지 피로로 이어지지만, 그 원인을 명확히 인식하기 어렵다.
+
+"느끼는 것"은 있지만, 무엇을 어떻게 조절해야 할지 알 수 없다. 현재의 기술은 모든 사람을 동일하게
+가정하며, 감각적으로 예민한 사람의 사회적 경험은 충분히 
+
+다루어지지 않는다.
+PROJECT STATEMENT
+
+
+
+
+                    How might we give a HSP use real-time sensory regulation tools in various ways without being socially noticeable?
+
+                                 어떻게 하면 HSP가 사회적으로 티 나지 않으면서, 다양한 방식을 통해 실시간 감각 조절 도구는 사용할 수 있을까?
+01.02 /
+
+PROJECT CONCEPT & COMPOSITION
+                                (2.1) CONCEPT KEYWORDS                   : Invisible · Real-time · Multi-channel · Haptic · Parasympathetic · Body-worn · Social · Biofeedback · Non-clinical · Modular
+
+
+
+
+                                (2.2) SYSTEM COMPOSITION
+
+
+
+
+                                                                                                       EAR CLIP
+
+                                                BREATHING OBJECT
+
+                                                                                                이어 클립 (SECONDARY)
+
+
+                                               호흡 오브젝트 (PRIMARY)
+
+
+                                                                                                                                                                 Physical Interaction Object
+                                                                                             VNS 진동 · 음향 필터 16dB SNR
+
+                                          흡입기 형태 · 유량 센서 · 그립 EDA · 햅틱
+                                                                                                  via bone conduction
+TARGET USER
+INTERVIEW
+
+
+
+
+    Sound Filtering​       호흡 훈련                  biofeedback   Texture fidgeting
+                                                  training
+
+                                                                                         정보·감정을 더 깊이 처리                감각 과부하 & 인지 피로
+
+
+    FIDGETING              brushing               pressure      haptic interaction
+                                                  interaction
+                                                                                     행동하기 전에 경험에 대해 깊이 반성 다른 사람   시람 많거나, 소음, 밝은 조명 또는 급격한 변화
+                                                                                        들이 놓치는 미세한 차이를 알아침              에 압도당하는 느낌 받음
+
+
+
+
+                                                                                         강한 감정 반응과 공감 능력                 미묘한 자극 감지
+   HSP라고 생각하는 인터뷰이들은 다음과 같은 방식을 통해 감각 과부하 방지한다 (4명)
+
+
+
+
+                                                                                                                      미세한 자극에 대해 매우 민감
+
+                                                                                      긍정적이고 부정적인 감정을 더 강한 경험
+                                                                                                                       : 향기, 질감, 목소리의 톤.
+
+
+
+  특히 통제할 수 없는 환경에서 더욱 그러한다. 
+
+  이러한 특성은 때때로 피로감과 일상 생활에서 집중 유지의 
+
+  어려움과 같은 부정적인 경험으로 이어질 수 있습니다.
+
+  인터뷰이 (여, 30대)
+03.3 /
+
+INTERACTION
+
+
+
+
+                  Breathing Object                        Ear Clip                                  Pressure Object
+
+                  호흡 오브젝트                                 이어 클립                                     프레셔 오브젝트
+
+
+
+
+                  • EDA detection                                                                   • Deep pressure stimulation
+                                                          • VNS (25Hz)
+                  • Peltier thermal                                                                 • C-tactile activation
+                                                          • Acoustic filter
+                  • Airflow sensor                                                                  • Non-electronic
+
+
+
+
+                    PRIMARY sensor                         SECONDARY support                           GROUNDING tool
+
+
+
+
+              INTERACTION LOOP
+
+
+
+
+                        감각적 직관
+                                             데이터 측정
+                                                                              상태 해석
+                                                                                              감각적   피드백                      사용자 재반응
+
+                                                                                            온 화 햅틱 펄스
+                       따라하기
+
+                                                                                            사운드 필터링
+                         제 만지기
+
+                                            EDA (피부전도)
+                                      도 변   ·                    호흡
+                 Grip feel · Temperature
+                            Objective threshold
+
+
+
+                                                                                            +                                          U
+                                            PPG (심박변이)
+                                                                 오브
+                 Texture · Pressure                                  crossed → alert
+                                            AIRFLOW                                          Deep pressure              FEEL THE PRESS   RE
+03.3 /
+
+INTERACTION                                                         구조: Feeling → Measuring → Interpreting → Guiding → Sensing Again
+
+
+
+
+                                                                                                                     사용자 재반응 
+
+
+                  감각적 접촉 
+                상태 해석 
+
+               감각적 피드백 
+
+ 감각적 직관            GRIP FEEL 
+                                     온도 변화 
+                                           호흡 따라하기 
+
+                                                                                                                     오브제 만지기 
+
+                 TEMPERATURE
+         나는 긴장되어 있다
+                  햅틱 펄스 
+
+                   TEXTURE 
+        subjective awareness          사운드 필터링                                        FEEL THE PRESSURE 
+
+                   PRESSURE                                                                                    FEEL THE TEMPERATURE
+                                                                                                                       CHANGE
+
+
+
+
+                                                 validates
+                                       informs
+                  EDA (피부전도) 
+         EDA elevated 
+             데이터 기록 
+                                         개인화 학습 
+
+
+ 데이터 측정            PPG (심박변이)
+        Objective treshold 
+   SESSION LOGO, HRV PRE/
+              AIRFLOW (호흡의 속도 측정)        fast airflow 
+              POST 
+                                     패턴 인식, 트리거 학습
+                                       low temperature        PATTERN RECOGNITION
+                                     Invisible
+
+
+
+
+                                                                                      our system
+
+
+
+                   oura ring
+                                                 loop earplugs
+
+
+
+           whoop
+
+
+                                                                 apollo neuro
+
+
+간접적 모니터링                                                                                               능동적 모니터링
+
+
+                                                                                            moonbird
+
+
+                                                                            calmigo
+
+
+
+
+                                                          muse headband
+                       empatica e4
+
+
+
+
+                                     Visible
+Prototyping
+02.1 /
+
+Product Definition                                                        Sensus Aura
+
+
+
+
+                                                                                                                            EDA   EGC   Airflow sensor   Peltier TEC
+
+
+
+
+[SPECIFICATION]
+
+CONCEPT KEYWORD: 
+                                                                      Airflow sensor (spirometer-style)
+DIMENSION: H17 X Ø12CM 
+CMF - COLOR: 
+
+     - MATERIAL: SOFT AND MATTE PLASTIC
+
+     - FINISHING: MATTE 
+DESIGN LANGUAGE: MINIMAL
+
+
+
+
+
+
+
+
+
+
+[DESCRIPTION - ENG]
+
+A handheld sensory regulation object for Highly Sensitive People, inspired
+by asthma inhalers and spirometry devices. Held in the hands, the user
+breathes through a mouthpiece channel,the material resistance naturally                                         EGC + EDA
+slows and deepens exhalation, activating the parasympathetic nervous
+system. A floating ball indicator makes correct breath depth immediately
+visible. The grip surface detects electrodermal activity, making the object
+aware of the user's arousal state. the point IS: it communicates
+physiological need without requiring explanation.
+
+
+
+
+
+
+
+[DESCRIPTION - KR]
+
+Highly Sensitive Person(HSP)을 위한 휴대용 감각 조절 도구다. 천식 흡입기와 폐활량 측정기에서 영감                         Peltier TEC (Thermoelectric
+을 받아 설계되었으며 손에 쥔 상태에서 사용자는 마우스피스 통로를 통해 숨을 내쉰다. 이때 소재의 저항
+이 자연스럽게 호흡을 늦추고 더 깊은 날숨을 유도해, 부교감신경계를 활성화한다. 떠 있는 볼(ball) 표시기                                            Cooler) modules
+는 적절한 호흡 깊이를 즉각적으로 시각화해 주며 그립 표면은 피부전도반응(EDA)으로 사용자의 각성 상
+태를 감지하고, 내장된 Peltier TEC 모듈이 온도로 반응한다. 불안하고 과각성된 상태엔 차갑게, 해리되거
+나 무감각한 저각성 상태엔 따뜻하게 신경계를 양방향으로 조절한다. 외형은 설명 없이도 생리적 도구임을
+전달해, 공공장소에서도 낙인 없이 사용할 수 있다.
+
+02 /       PRODUCTS PROTOTYPES         Sensus Aura
+
+
+
+
+                                                                                       no.4 render   no.5 prototype parts
+no1.1 form study                                     no2 3d modeling   no3. Protoype
+
+
+
+
+ no.6 2nd 3d printed prototype parts
+02.1 /
+
+Product Definition   Sensus Aura   HARDWARE
+
+
+
+
+                                              sphere
+
+
+
+
+                                                 upper funnel
+
+
+
+
+                                                          upper chamber
+
+
+
+
+                                                            separation ring
+
+
+
+
+                                                 air pressure sensor, cooler warm temp sensor
+
+
+
+                                                 main pcb
+
+
+
+                                               temperature generator
+
+
+
+                                                 wireless charger module
+
+
+
+                                                       separation ring, EDA SENSOR
+
+
+
+
+                                                       Housing
+02.1 /
+
+Product Definition                     Sensus Aura        CMF 스펙 제안
+
+
+                                                                          1
+
+                                                                         Ø2.8
+
+                                                                           2
+
+
+
+                                                                           3
+
+                                                                      H9 X Ø1 → Ø3
+
+
+
+
+                                                                           4
+
+                                                                        H 11X Ø7
+
+
+  PLASTIC PLASTIC Pantone WARM GRAY 9 U 
+
+   볼 인디케이터: Translucent frosted white — 기능이 보이면서 튀지 않음
+
+   PLASTIC CLOUD Pantone WARM GRAY 9 U 
+                                  5
+
+
+   CLEAR TEXTURED PLASTIC WHITE 
+                                      H5x Ø 12
+    PLASTIC PLASTIC Pantone WARM GRAY 9 U
+PLASTIC PLASTIC Pantone WARM GRAY 9 U 
+
+
+ 볼 인디케이터: RED — 기능이 보이면서 튀지 않음
+
+
+ PLASTIC CLOUD Pantone WARM GRAY 9 U 
+
+
+ CLEAR TEXTURED PLASTIC WHITE 
+
+
+ Anodized alumnium hairline finished Pantone WARM GRAY 9 U
+02.3 /
+
+Product   Sensus Aura   USER SHOT
+ 02.2 /
+
+ Product Definition                                                           EARCLIP
+
+
+
+
+[SPECIFICATION]
+
+CONCEPT KEYWORD: Invisible · Parasympathetic · VNS · Acoustic · Body-worn ·
+Non-clinical
+
+DIMENSION: Ø15 X h 2cm
+
+
+
+CMF
+
+COLOR: Brushed silver / Matte anodized dark gray
+
+MATERIAL: Anodized aluminum (outer shell) · Silicone (inner contact
+surface) · Titanium spring steel (clip mechanism)
+
+FINISHING: Brushed anodized (hairline direction)
+
+
+
+DESIGN LANGUAGE: MINIMAL
+
+
+
+
+
+
+
+
+
+
+[DESCRIPTION - ENG]
+
+A body-worn sensory regulation device for Highly Sensitive People,
+clipped to the tragus of the ear. Inspired by the form of high-end audio
+clips and medical auricular devices, the ear clip delivers two
+simultaneous interventions: a 25Hz mechanical vibration through bone
+conduction that stimulates the auricular branch of the vagus nerve,
+and a passive acoustic filter that reduces ambient noise by 16dB while
+preserving speech clarity. The device requires no active operation —
+wearing it is the intervention. It is deliberately discreet, reading as an
+unconventional earring or audio accessory, so that physiological
+regulation remains invisible in social contexts.
+
+
+
+[DESCRIPTION - KR]
+
+Highly Sensitive Person(HSP)을 위한 귀 착용형 감각 조절 디바이스다. 하이엔드 오디오 클립
+과 의료용 이어 디바이스의 형태에서 영감을 받아 설계되었으며, 귀의 이주(tragus)에 클립 방식으로
+고정된다. 두 가지 개입을 동시에 제공한다: 골전도 진동(25Hz)을 통해 미주신경의 귀 분지를 자극하
+고, 수동형 음향 필터로 주변 소음을 16dB 감쇄하면서도 대화 명료도는 유지한다. 별도의 조작이 필요
+없으며, 착용 자체가 개입이다. 외형은 비정형 귀걸이 또는 오디오 액세서리처럼 읽히도록 의도적으로
+설계되어, 사회적 맥락에서 생리적 조절이 시각적으로 드러나지 않는다.
+1.                        3.        4.
+
+
+
+
+     5.         6.             8.        9.
+                     7.
+
+
+
+
+          10.
+ 02.2 /
+
+ Product Definition
+                                             ARCUS           HARDWARE
+
+
+
+
+                                                                        Tragus
+
+
+                                                                        VNS, PPG PCB
+   MECHANISM
+
+
+
+   VNS 주파수 (15 / 25Hz)
+
+   음향 필터 SNR (-16dB) Through ear bone
+
+
+
+
+Tragus
+ VNS 주파수
+
+
+
+
+          the user sets the circular part            front
+          on the tragus and open the
+          loop part to fit on the ear lobe
+02.2 /
+
+
+
+PRODUCT   ARCUS   CMF (COLOR, MATERIAL, FINALIZATION)
+02 /   PRODUCTS NAMING
+
+
+
+
+                         Perspective   Environment Scene   User Scene
+02.2 /
+
+
+
+PRODUCT                     ARCUS    CMF (COLOR, MATERIAL, FINALIZATION)
+
+
+
+
+          polished finished silver                                         polished finished silver
+02.2 /
+
+
+
+PRODUCT                    ARCUS    공장 빙밥
+
+
+
+
+              3d printed wax 
+
+                                            주물 실버
+                                                    광택기로 마감
+          (jewerly making method)
+ 02.3 /
+
+ Product Definition                                                                       TACTUS
+
+
+
+
+                                                                                                   Deep Pressure Stimulation (DPS) / 심부 압박 자극
+
+                                                                                                   touch → pressure → rhythm → settling
+[SPECIFICATION]
+
+CONCEPT KEYWORD: Touch · Pressure · Rhythm · Settling · Deep Pressure
+Stimulation · Grounding · Non-electronic · Tactile
+
+DIMENSION: L 12 X W 4X H 2.5- 3CM
+
+
+CMF
+
+COLOR: Warm cream white (body) · Mist blue (silicone nub surface)
+
+MATERIAL: Soft matte ABS or EVA foam (body) · Medical-grade silicone (nub array)
+
+FINISHING: Matte soft-touch (body) · Smooth matte (silicone nubs)
+
+
+DESIGN LANGUAGE: MINIMAL · ORGANIC · SENSORY
+
+
+
+
+
+
+
+
+
+
+[DESCRIPTION - ENG]
+
+A handheld grounding object for Highly Sensitive People, designed around the
+clinically validated principle of Deep Pressure Stimulation. The pill-shaped body rests
+flat in the palm or across the fingers, and the raised silicone nub array on the upper
+surface delivers distributed tactile pressure to the skin. The central oval recess acts
+as a natural thumb guide, orienting the grip and concentrating pressure at the most
+sensitive point of contact. No electronics, no activation the object works through
+touch alone. Squeezing, pressing, or slowly dragging the thumb across the nub
+surface engages C-tactile afferent nerve fibers, triggering a parasympathetic
+response. The two-tone material language warm body, cool blue nubs makes the
+tactile zone immediately readable without instruction.
+
+
+
+[DESCRIPTION - KR]
+
+Highly Sensitive Person(HSP)을 위한 손 안착형 그라운딩 오브젝트다. 임상적으로 검증된 심부
+압박 자극(Deep Pressure Stimulation) 원리를 중심으로 설계되었다. pill 형태의 바디는 손바닥
+위 또는 손가락 위에 평평하게 올려지며, 상단 면의 실리콘 돌기 배열이 피부에 분산된 촉각 압력을
+전달한다. 중앙의 타원형 오목부는 자연스러운 엄지 가이드 역할을 하며, 그립 방향을 잡아주고 가
+장 민감한 접촉 지점에 압력을 집중시킨다. 전자 부품도, 별도의 활성화 동작도 없다 오브젝트는 오
+직 촉각만으로 작동한다. 돌기 면을 누르거나 엄지로 천천히 쓸어내리는 동작이 C-촉각 구심성 신
+경섬유를 자극하고, 부교감신경계 반응을 유도한다. 따뜻한 크림 바디와 차가운 블루 돌기의 이중
+소재 언어는 별도의 설명 없이도 촉각 작용 영역을 즉각적으로 인식하게 한다.
+
+02 /   PRODUCTS PROTOTYPES     Tactus
+
+
+
+
+         no1 Idea Sketch                        no1.1 Idea Sketch 2
+
+
+
+
+         no 2 soft prototype
+                                        no4. 3d model render          no5. 3d model 2 render
+                                                                                               no6. 3d printed prototype parts
+02.3 /
+
+Product   TACTUS   CMF 스펙 제안   Head Types
+
+
+
+                               Pressure Roller — Smooth silicone, DPS
+
+                               Textured Brush — Soft bristles, C-tactile activation
+
+                               Smooth Stone — Ceramic/resin, calming fidget
+
+                               Ridged Surface — ABS grooves, discriminative touch
+
+                               Soft Cushion — Memory foam, squeeze feedback
+
+                               Massage Nob — Firm rubber, targeted pressure
+
+                               Cooling Gel — Gel insert, thermal reset
+
+                               Deep Pressure Stimulation (DPS) / 심부 압박 자극
+02.3 /
+
+
+Product   TACTUS   PROTOTYPE N2 (modeling results)
+02.3 /
+
+
+Product   TACTUS   PROTOTYPE N2 (modeling results)
+02.3 /
+
+Product   TACTUS   결합방식
+02 /   PRODUCTS NAMING
+
+
+
+
+                         Perspective   Environment Scene   User Scene
+EXHIBITION PLAN
+05 /
+
+Exhibition Space
+
+
+
+
+                                                            1.5m
+
+
+
+
+                                                       2m
+
+
+
+
+ 1. 프로젝트 명: Soft Signals 
+ 2. 프로젝트 HW 사이즈: 총 3개로 구성되며
+ W400x200xH200mm 
+ 3. 프로젝트 전시 사이즈: Minimum W2000xD1500mm 
+ 4. 추가 설치 요소 요청품:iMac Monitor 27", Bluetooth Speaker
+ 2pcs, Eletric Extension
+                                     Imac 
+
+                                     (videos on the
+                                     product)
+
+
+
+
+prototyping,ideation archive
+
+
+
+
+    prototypes                                        finished
+                                                      products
+
+
+
+
+                               경험존
+05 /
+
+Exhibition Space   동선
+
+
+
+
+                        in
+                             out
+05 /
+
+Exhibition Space
+05 /
+
+Exhibition Space
+06/
+
+Final Poster Shot                 SOFT SIGNALS
+
+
+
+
+                      Tactus
+
+
+
+
+                    Sensus Aura
+
+
+
+
+                                                  Arcus
+
+
+
+
+                                    main poster
+02 /   PRODUCTS NAMING
+
+
+
+
+                         Sensus Aura   Tactus   Arcus
+                                SOFT SIGNALS
+                                 DIPLOMA PROJECT
+
+
+
+
+                       Tactus
+
+
+
+
+                                                   Arcus
+      Sensus Aura
+
+
+
+
+BIANCA BRAGA 2387001                                       beyondouibeyond@gmail.com
+
